@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+nav img {
+  border-radius: 50%;
+}
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+nav .container {
+  width: 95%;
+  margin: 0 2.5%;
+}
+nav .move {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+nav .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .input {
+  width: 50px;
+}
+nav .input input {
+  height: 30px;
+  background-color: transparent;
+  border: 0;
+}
+
+.all {
+  display: flex;
+}
+.all ul .red {
+  color: red;
+}
+.all ul li {
+  list-style: none;
+  margin: 30px 0;
+  color: rgb(255, 255, 255);
+}
+.all ul li:hover {
+  color: red;
+}
+.all ul li .las {
+  color: black;
+}
+.all .black-body {
+  background-color: rgb(10, 142, 23);
+}
+.all .black-body .last {
+  display: flex;
+  gap: 5px;
+}
+.all .black-body .last p {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+.all .container {
+  display: flex;
+  width: 90%;
+  margin: 0 5%;
+}
+
+.body-flex {
+  display: flex;
+  margin: 20px 0;
+}
+.body-flex .text {
+  margin: 0 10px;
+}
+.body-flex .text p {
+  color: red;
+}
+.body-flex .text span {
+  color: white;
+}
+.body-flex img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.image-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 180px;
+}
+.image-flex .text {
+  margin: 10px;
+}
+.image-flex .text p {
+  margin: 3px;
+}
+.image-flex .text h5 {
+  font-size: 20px;
+}
+.image-flex .images {
+  position: relative;
+  padding: 20px;
+  width: 15%;
+  margin: 0 2.5%;
+}
+.image-flex .images .bal {
+  position: absolute;
+  top: 10px;
+  left: 75px;
+}
+.image-flex .images .bal p {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 20px;
+  border-radius: 45%;
+  background-color: yellow;
+  color: red;
+}
+.image-flex img {
+  transition: 0.5s all ease-in-out;
+  width: 150px;
+}
+.image-flex img:hover {
+  transform: scale(1.8);
+}
+
+.width {
+  width: 90%;
+  margin: 0 5%;
+}
+
+.grey-body {
+  background-color: grey;
+}
